@@ -1,0 +1,51 @@
+:host {
+  .sec-one {
+    background-color: #F6F9FA;
+    padding: 15px 20px;
+  }
+  .card-one {
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 10px;
+    .card-icon {
+      height: 60px;
+      width: 60px;
+      border-radius: 50%;
+      min-width: 60px;
+      mat-icon {
+        font-size: 24px;
+        color: #fff;
+      }
+    }
+    .card-content {
+      h5 {
+        color: #3b3b3b;
+        font-size: 20px;
+        line-height: 20px;
+        margin-bottom: 8px;
+      }
+      p {
+        color: #858585;
+        line-height: 22px;
+        font-size: 16px;
+      }
+    }
+  }
+  
+  .circle-success {
+    background-color: #4bf291;
+  }
+  .circle-primary {
+    background-color: #52d6fa;
+  }
+  .circle-accent {
+    background-color: #6640ff;
+  }
+  .circle-warn {
+    background-color: #ff4081;
+  }
+  .m-64{
+    margin:64px;
+  }
+
+}
